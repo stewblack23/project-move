@@ -1,0 +1,33 @@
+/* Use this file for creating custom breakpoints
+Default is set to bootstrap 3.0 breakpoints (http://getbootstrap.com/css/#grid-options)*/
+
+//Break Point Variables
+$desktop: 1200px;
+$tablet: 992px;
+$large-phone: 768px;
+$small-phone: 485px;
+
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin large-phone {
+  @media (min-width: #{$large-phone}) {
+    @content;
+  }
+}
+
+@mixin small-phone {
+  @media (min-width: #{$small-phone}) {
+    @content;
+  }
+}

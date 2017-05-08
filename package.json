@@ -1,0 +1,19 @@
+{
+  "name": "move-framework",
+  "version": "1.0.0",
+  "description": "work-flow",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-dependency-install": "0.0.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wayne-Stewart",
+  "license": "ISC"
+}

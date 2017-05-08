@@ -1,0 +1,19 @@
+//Bootstrap layout, colors & minxins
+@import "bootstrap/_bootstrap";
+@import "modules/_layout";
+@import "modules/_color";
+@import "modules/_mixins";
+
+//Example styles remove for bootstrap only files
+@import "partials/_template";
+
+// Global Styles
+@import "partials/_global";
+
+// Header, Nav, Body, Footer
+@import "partials/_header";
+@import "partials/_nav";
+@import "partials/_body";
+@import "partials/_footer";
+
+// Sub Pages & Special Pages
