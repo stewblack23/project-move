@@ -9,25 +9,25 @@ $small-phone: 485px;
 
 
 @mixin desktop {
-  @media (min-width: #{$desktop}) {
+  @media (max-width: #{$desktop}) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (min-width: #{$tablet}) {
+  @media (max-width: #{$tablet}) {
     @content;
   }
 }
 
 @mixin large-phone {
-  @media (min-width: #{$large-phone}) {
+  @media (max-width: #{$large-phone}) {
     @content;
   }
 }
 
 @mixin small-phone {
-  @media (min-width: #{$small-phone}) {
+  @media (max-width: #{$small-phone}) {
     @content;
   }
 }
