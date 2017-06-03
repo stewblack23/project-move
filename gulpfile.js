@@ -1,6 +1,8 @@
 //https://www.sitepoint.com/simple-gulpy-workflow-sass/
 //https://quickleft.com/blog/setting-up-a-clientside-javascript-project-with-gulp-and-browserify/
 
+//to install all dependies for project based on package JSON file type npm install in node command promt
+
 'use strict';
 
 //Set Variables
