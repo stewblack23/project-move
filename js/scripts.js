@@ -4,5 +4,5 @@ function include(url){
 }
 
 // Include file for all necessary files JS files
-
 include('js/bootstrap.min.js');
+include('js/intialize.js');
