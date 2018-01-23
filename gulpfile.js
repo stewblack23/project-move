@@ -12,7 +12,7 @@
 var gulp = require('gulp');
 
 //SASS Dependencies
-var sassInput = 'sass/**/*.scss'; //input path
+var sassInput = 'scss/**/*.scss'; //input path
 var sassOutput = 'css'; //output path
 var sassOptions = {
     errLogToConsole: true,
